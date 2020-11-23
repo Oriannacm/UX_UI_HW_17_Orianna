@@ -1,0 +1,147 @@
+.logo {
+    background: #7F095D;
+    position: absolute;
+    width: 28%;
+    height: 8%;
+    left: 3.55%;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    padding: 15px 7px 7px 0px;
+    border: 3px solid #cfdde0;
+    box-sizing: border-box;
+    display: inline-block;
+  }
+  .left{
+    background-color: #cfdde0;
+    float: left;
+    width: 3%;
+    height: 744.7px;
+    position: absolute;
+    margin-left: 0px;
+  }
+.nav {
+    display: inline-block;
+    background-color: white;
+    position: absolute;
+    width: 68.3%;
+    height: 8%;
+    left: 31%;
+    border: 3px solid #CFDDE0;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 17px;
+    font-family: sans-serif;
+  }
+  
+.flex-container{
+  height: 745px;
+  border-right:3px solid #cfdde0;
+}
+
+.center {
+    cursor: pointer;
+    padding:20px;
+    float: right;
+  }
+.center a {
+    width: 30%;
+    text-decoration: none;
+    padding: 15px;
+  }
+
+.right{
+    align-items:center;
+    justify-content: center;
+    cursor: pointer;
+    float: right;
+    padding: 7px 25px 11px 10px;
+  }
+  
+.right button {
+    background-color: #DC0F91;
+    color:white;
+    font-size: 16px;
+    padding: 5px 15px 7px 15px;
+    width: 100%;
+    height: 40px;
+    border-radius: 70px;
+    box-shadow: 0 6px 20px 0 rgb(10 10 10 / 19%);
+    font-family: sans-serif;
+    margin-right: 20px;
+    cursor: pointer;
+    border: none  ;
+  }
+  
+  /* Column styles */
+  .column {
+    display: flex;
+    height: 650px;
+    width: 800px;
+    flex-direction: row;
+    margin: 0 auto;
+  }
+  
+  .picture, .helloMessage{
+    height: 40%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 100px;
+  }
+  .picture {
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  img{
+    height: 400px;
+    margin: auto;
+    margin-top: 45px;
+    border-radius: 20px;
+  }
+  .helloMessage{
+    float: right;
+    background-image: url("../images/soup.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 190px;
+  }
+  
+  .text {
+    background: rgb(0,0,0,0.7);
+    width: 100%;
+    padding: 20px 40px;
+    color: white;
+  }
+  .text p {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .text h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2A1B3D;
+    height: 70px;
+    margin-top: 25px;
+  }
+  
+  .footer a {
+    padding: 20px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
+  
+  .ig, .fb, .tw {
+    color:#CFDDE0 ;
+  }
+  
+ 
